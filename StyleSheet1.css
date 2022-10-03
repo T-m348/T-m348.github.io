@@ -1,0 +1,65 @@
+﻿body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    color: #ffffff;
+    background-color: #a2d2ff;
+    display :flex;
+    flex-direction : column;
+    align-items :center
+
+}
+
+#best_friend {
+    width: 150px;
+    border-radius: 50%;
+    border: 4px solid #EFB0C9;
+}
+
+ h1,h2,h3{
+     text-shadow : 0px 0px 1px black;
+
+
+ }
+
+
+#date{
+    background-color: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#years{
+    background-color: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+#gift, #gift1 {
+    width: 500px;
+    height: 500px;
+    border: 5px solid #EFB0C9;
+    border-radius: 10px;
+    background-image: url("For HTML/birthdayGift.jpg");
+    background-size: cover;
+}
+    #gift:hover {
+        background-image: url("For HTML/happy-birthday-the-office.gif");
+    }
+    #gift1:hover {
+        background-image: url("For HTML/compliments.gif");
+    }
+
+#gift2 {
+    width: 500px;
+    height: 200px;
+    border: 5px solid #EFB0C9;
+    border-radius: 10px;
+    background-image: url("For HTML/birthdayGift.jpg");
+    background-size: cover;
+}
+#gift2:hover {
+    background-image: url("For HTML/i-love-you-i-love-you-gif.gif");
+}
+
